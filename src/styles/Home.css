@@ -15,6 +15,7 @@
   .headerContainer {
     width: auto;
     margin-left: 50px;
+    margin-top: 30px;
     opacity: 0.01;
     position: absolute;
     top: 15px;
@@ -26,7 +27,7 @@
     transition-timing-function: ease-in;
 
   }
-  
+    
   .headerContainer h1 {
     justify-content: center;
     align-items: center;
@@ -34,13 +35,14 @@
     height: 60px;
     font-weight: 50;
     color: white;
-  }
+    text-shadow: #FC0 10px 0 30px;  }
   
   .headerContainer p {
     padding: 0;
     font-size: 40px;
     font-weight: lighter;
     color: white;
+    text-shadow: #FC0 2px 0 20px;
   }
   
   .headerContainer button {
@@ -62,16 +64,17 @@
     cursor: pointer;
     transition: 0.3s ease-in;
   }
-  
   @media only screen and (max-width: 650px) {
     .home {
       justify-content: center;
       align-items: center;
     }
     .headerContainer {
-      margin-left: 0px;
+       
       border-radius: 10px;
+      position: relative;
       padding: 10px;
+      margin-right: 20px; 
       width: 80%;
       display: flex;
       justify-content: center;
@@ -80,7 +83,7 @@
       background-color: #121619;
       color: white;
     }
-  
+     
     .headerContainer h1 {
       font-size: 40px;
       height: 30px;
