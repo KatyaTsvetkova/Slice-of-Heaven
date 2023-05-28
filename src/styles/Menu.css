@@ -6,8 +6,7 @@
     align-items: center;
     flex-direction: column;
   }
-  .menu .menuTitle {
-    font-family: cursive;
+  .menu .menuTitle { 
     font-size: 60px;
   }
   

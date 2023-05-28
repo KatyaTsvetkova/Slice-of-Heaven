@@ -43,6 +43,9 @@
     border-bottom: 1px solid #121619;
     color: black;
   }
+  form label{
+    text-align:left;
+  }
   
   form textarea {
     margin-top: 15px;

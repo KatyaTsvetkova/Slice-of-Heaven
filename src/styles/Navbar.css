@@ -25,7 +25,9 @@
     align-items: center;
     justify-content: center;
   }
-  
+  .logo { 
+  cursor: pointer;
+  }
   .navbar a {
     color: white;
     text-decoration: none;
